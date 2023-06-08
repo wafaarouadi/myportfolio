@@ -1,0 +1,26 @@
+.Projects{
+    display :flex;
+    flex-direction: column;
+    padding: 20px;
+    
+   /* position: relative;
+    left:200px;*/
+    text-align: center;
+}
+.div1 img{
+    width: 40%;
+    padding: 30px;
+    border:  2px solid  rgb(27, 27, 87);
+    ;
+    padding: 30px;
+    margin: 30px;
+    background: rgba(255,230,230);
+}
+.div1 img:hover{
+    
+
+    transform: scale(1.2);
+    transition: 2s;
+
+}
+

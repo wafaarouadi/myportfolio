@@ -1,0 +1,301 @@
+* {
+  font-family: 'Satisfy', cursive;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+p,
+h1 {
+  padding: 20px;
+  color: rgb(27, 27, 87);
+}
+
+
+
+
+.image-box {
+  flex: 1;
+
+}
+
+.text-box {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  color: #777;
+}
+
+img {
+  width: 80%;
+}
+
+.border-animation {
+  width: 300px;
+  height: 200px;
+  border: 2px solid transparent;
+  position: relative;
+  animation: borderAnimation 2s infinite;
+}
+
+
+.Pargraphe {
+  font-size: 18px;
+  font-family: 'Satisfy', cursive;
+  /* border: 1rem solid rgb(27, 27, 87);
+  border: 2mm ridge rgb(27, 27, 87);*/
+  opacity: 1;
+  text-align: center;
+
+}
+
+.Pargraphe:hover {
+  font-size: 19px;
+
+  /* border: 1rem solid rgb(27, 27, 87);*/
+
+  opacity: 1;
+  ;
+
+}
+
+.test {
+  color: rgb(242, 180, 205);
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+
+}
+
+.lien {
+  width: 60px;
+}
+
+.Box {
+  margin: 100px;
+  padding: 20px;
+}
+
+
+
+
+
+
+.container img {
+  width: 80%;
+  border-radius: 20px 50px;
+  margin-left: 50px;
+}
+
+
+.test {
+  color: rgb(238, 109, 161);
+  opacity: 1;
+  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+
+  padding-left: 10px;
+  width: 30%;
+  height: 100px;
+  background: rgb(230, 218, 222);
+
+  border-radius:
+    93% 7% 100% 0% / 100% 0% 100% 0%;
+  margin-left: 50px;
+  margin-bottom:50px ;
+
+
+  text-align: center;
+  margin-left: 35%;
+
+}
+
+.test span {
+  margin: 50px;
+  color: rgb(27, 27, 87);
+}
+
+.cv-button {
+  background-color: rgba(255, 230, 230);
+  color: rgb(27, 27, 87);
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Satisfy', cursive;
+
+}
+
+.cv-button:hover {
+  background-color: rgb(242, 180, 205);
+}
+
+.Card {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+
+}
+
+.Card div {
+  border: 1px solid rgba(255, 230, 230);
+  padding: 40px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 10px 1px 5px rgba(255, 230, 230);
+
+}
+
+h6 {
+  margin: 30px;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 30px;
+  font-size: 25px;
+}
+
+.Card a {
+  font-size: 40px;
+}
+
+hr {
+  width: 50%;
+  margin-left: 30%;
+  font-weight: bolder;
+  color: rgb(27, 27, 87);
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.Isso {
+  font-size: 50px;
+  color: rgb(27, 27, 87);
+
+}
+
+
+
+
+
+
+.letterspacing {
+  font-family: verdana;
+  letter-spacing: -4px;
+  font-size: 24px;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(239, 136, 177);
+}
+
+.Card img{
+  width: 60px;
+}
+.Card img:hover{
+  transition: 1s;
+  transform: scale(1.4);
+}
+/* CSS for mobile devices */
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image-box {
+    text-align: center;
+  }
+
+  .image-box img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .text-box {
+    padding: 20px;
+  }
+
+  .cv-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .Card {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .Card div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .letterspacing {
+    font-size: 20px;
+  }
+}
+
+/* CSS for tablets and small desktop screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    height: auto;
+  }
+
+  .image-box img {
+    max-width: 400px;
+  }
+
+  .Card {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .Card div {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+/* CSS for large desktop screens */
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 80vh;
+  }
+
+  .image-box img {
+    max-width: 600px;
+  }
+
+  .Card div {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+}

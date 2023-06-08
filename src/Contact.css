@@ -1,0 +1,141 @@
+.box-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+    text-align: center;
+    /*border: 3px outset rgb(242, 180, 205);*/
+    font-family: 'Satisfy', cursive;
+
+    color: rgb(27, 27, 87);
+    font-size: 20px;
+    border-radius: 30px 100px;
+    /*background-color:  rgb(242, 180, 205);*/
+    height: 60%;
+
+
+    padding: 10px;
+}
+
+.box-info:hover div {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.box-info div {
+    border: 1px solid rgba(255, 230, 230);
+    background-color: white;
+    width: 40%;
+    margin: 20px;
+}
+
+.box-info-contact {
+    /* background-color: rgb(242, 214, 225);*/
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: contain;
+    border: 100%;
+    background: rgba(255, 230, 230);
+}
+
+.form:hover {
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+h2 {
+    color: rgb(27, 27, 87);
+
+
+}
+
+.form {
+    max-width: 380px;
+    font-family: 'Satisfy', cursive;
+
+    margin: auto;
+
+    background-color: rgb(242, 180, 205);
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+    color: #fff;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    background-color: transparent;
+    color: rgb(27, 27, 87);
+    padding: 10px 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px white solid;
+    font-family: 'Satisfy', cursive;
+
+}
+
+input .button {
+    width: 80%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: red;
+    color: rgb(27, 27, 87);
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor:
+        pointer;
+    margin: 10px 10px 0px 10px;
+}
+
+.connecter {
+    width: 100px;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+
+    color: rgb(27, 27, 87);
+    font-size: 10px;
+    font-weight: bold;
+    outline: none;
+    cursor:
+        pointer;
+    margin: 10px 10px 0px 10px;
+    transform: scale(1.3);
+    transition: .4s;
+}
+
+link {
+    margin: 240px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .box-info {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .box-info div {
+      width: 80%;
+    }
+  
+    .form {
+      font-size: 16px;
+    }
+  
+    .link {
+      margin: 20px;
+    }
+  }
